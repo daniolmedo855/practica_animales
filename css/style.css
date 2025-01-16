@@ -34,10 +34,29 @@ h3{
     
 }
 
-
+/*header*/
 .navbar{
     z-index: 9999;
 }
+
+/*footer*/
+#footer{
+    >div.container>div.row>div.col-8>div.row>div.col-3{
+        display: flex;
+        justify-content: center;
+        margin-top: 4%;
+        >a>img{
+            height: 50px;
+            width: 50px;
+            filter: invert(1) brightness(2);
+
+            &:hover{
+                filter: sepia(1) saturate(20) hue-rotate(30deg) brightness(3);
+            }
+        }
+    }
+}
+
 /*INDEX*/
 #banner{
     width: 100%;
