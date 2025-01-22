@@ -38,7 +38,79 @@
         </nav>
     </header>
 
-    <main class="bg-black"></main>
+    <main class="bg-black">
+        <section id="formulario" class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8 col-xl-6 neon p-0 p-sm-5 text-center text-sm-start">
+                <h2>Envíanos un mensaje</h2>
+                <form action="#" method="post">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" placeholder="Escribe tu mensaje aquí" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-warning mb-2 mb-sm-0">Enviar</button>
+                </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="rrss" class="container-fluid bg-warning">
+            <div class="row">
+                <div class="col-lg-8 mx-auto py-5">
+                    <div class="row">
+                        <div class="col-3">
+                            <a href="facebook.com"><img src="../img/icon/facebook.svg" alt=""></a>
+                        </div>
+
+                        <div class="col-3">
+                            <a href="instagram.com"><img src="../img/icon/instagram.svg" alt=""></a>
+                        </div>
+
+                        <div class="col-3">
+                            <a href="twitter.com"><img src="../img/icon/twitter.svg" alt=""></a>
+                        </div>
+                        <div class="col-3">
+                            <a href="tiktok.com"><img src="../img/icon/tiktok.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacto" class="container">
+            <div class="row">
+                <div class="col-12 col-lg-8 mx-auto px-5 text-lg-center">
+                    <h2 class="text-white">Información de contacto</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-action list-group-item-warning">Direccion: Calle Selva Tropical 123, Mundo Natural</li>
+                        <li class="list-group-item list-group-item-action list-group-item-warning">Telefono: +123 456 789</li>
+                        <li class="list-group-item list-group-item-action list-group-item-warning">Email: contacto@grandesfelinos.com</li>
+                      </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="suscripcion" class="container pb-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-12 col-lg-8 my-4 px-5">
+                    <h2 class="text-white text-md-center">Suscríbete a nuestro boletín</h2>
+                    <form action="/suscripcion" method="POST">
+                      <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Tu correo electrónico" name="email" required>
+                        <button class="btn btn-warning" type="submit">Suscribirse</button>
+                      </div>
+                    </form>
+                  </div>
+            </div>
+        </section>
+    </main>
 
     <footer id="footer" class="bg-black py-5" data-bs-theme="dark">
         <div class="container">
@@ -78,25 +150,6 @@
                 </div>
                 <div class="col-12 d-flex justify-content-center">
                     <a href="index.html"><img src="../img/icon/logo.svg" alt="" width="100px" class="mt-5"></a>
-                </div>
-                <div class="col-8 mx-auto mt-5">
-                    <h3 class="text-white text-center">Siguenos en redes sociales</h3>
-                    <div class="row">
-                        <div class="col-3">
-                            <a href="facebook.com"><img src="../img/icon/facebook.svg" alt=""></a>
-                        </div>
-
-                        <div class="col-3">
-                            <a href="instagram.com"><img src="../img/icon/instagram.svg" alt=""></a>
-                        </div>
-
-                        <div class="col-3">
-                            <a href="twitter.com"><img src="../img/icon/twitter.svg" alt=""></a>
-                        </div>
-                        <div class="col-3">
-                            <a href="tiktok.com"><img src="../img/icon/tiktok.svg" alt=""></a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
